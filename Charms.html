@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <style>
+        h1 {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 60px;
+            color: indianred;
+            text-align: center;
+        }
+
+        body{
+            margin: 0;
+            padding: 20px;
+            text-decoration: none;
+            list-style: none;
+            font-family: Arial, sans-serif;
+            background-color:mediumseagreen;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            width: 100%;
+            height: 100px;
+            background-color: grey;
+            color: #00bcd4;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+            flex: 1;
+        }
+
+        .nav-links li a {
+            color: #00bcd4;
+            font-size: 1em;
+            transition: color 0.3s;
+            text-decoration: none;
+        }
+
+        .nav-links li {
+            margin: 0 20px;
+        }
+
+        .nav-links li a:hover {
+            color: #007BFF;
+        }
+        ul {
+            margin-left: 60px;
+        }
+
+        ul li {
+            list-style: none; 
+            display: inline-block;
+            line-height: 100px;
+        }
+
+        ul li a {
+            display: block;
+            text-decoration: none;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: grey;
+            padding: 0 20px;
+        }
+
+        ul li a:hover {
+            color: aquamarine;
+        }
+
+        .shopping-cart {
+            width: 70px;
+            height: 80px;
+        }
+
+        .photos {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr); 
+            gap: 20px; 
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .charms-card {
+            text-align: center;
+        }
+
+        .charms-card img {
+            width: 100%; 
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .charms-info {
+            margin-top: 10px;
+        }
+
+        .charm-name {
+            font-size: 16px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .charm-price {
+            font-size: 14px;
+            color: #007BFF;
+            margin-top: 5px;
+        }
+
+        a {
+            font-size: 20px;
+            color: blue;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="shoping.html" target="_blank">
+            <img src="cart.jpg" class="shopping-cart">
+        </a>
+        <ul class="nav-links">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="BProducts.html">Bracelets</a></li>
+            <li><a href="Charms.html">Charms</a></li>
+            <li><a href="About.html">About Us</a></li>
+            <li><a href="shoping.html"> Order Here</a></li>
+        </ul>
+    </nav>
+    <h1>Shimer and Shine🌺</h1>
+    <h2>All you creativity is welcomed here🌸🌸
+    </h2>
+    <h2>
+        Choose your favourite charms to create a masterpiece!!
+    </h2>
+    <div class="photos">
+        <div class="charms-card">
+            <img src="charm1.jpg" alt="Disney Lilo and Stitch Charm">
+            <div class="charms-info">
+                <p class="charm-name">Disney Lilo and Stitch Charm</p>
+                <p class="charm-price">$35.00</p>
+            </div>
+        </div>
+        <div class="charms-card">
+            <img src="charm2.jpg" alt=" Sparkling Cross Dangle Charm">
+            <div class="charms-info">
+                <p class="charm-name"> Sparkling Cross Dangle Charm</p>
+                <p class="charm-price">$45.00</p>
+            </div>
+        </div>
+        <div class="charms-card">
+            <img src="charm3.jpg" alt="Double Heart Mother and daughter Split Dangle Charm">
+            <div class="charms-info">
+                <p class="charm-name">Double Heart Mother and daughter Split Dangle Charm</p>
+                <p class="charm-price">$90.00</p>
+            </div>
+        </div>
+        <div class="charms-card">
+            <img src="charm4.jpg" alt="Disney Christmas Charm Trio">
+            <div class="charms-info">
+                <p class="charm-name"> Disney Christmas Charm Trio</p>
+                <p class="charm-price">$130.00</p>
+            </div>
+        </div>
+        <div class="charms-card">
+            <img src="charm5.jpg" alt="Marvel Hanging Spider-Man Dangle Charm">
+            <div class="charms-info">
+                <p class="charm-name">Marvel Hanging Spider-Man Dangle Charm</p>
+                <p class="charm-price">$50.00</p>
+            </div>
+        </div>
+        <div class="charms-card">
+            <img src="charm6.jpg" alt=" Airplane, Globe & Suitcase Dangle Charm">
+            <div class="charms-info">
+                <p class="charm-name">Airplane, Globe & Suitcase Dangle Charm </p>
+                <p class="charm-price">$70.00</p>
+            </div>
+        </div>
+        <div class="charms-card">
+            <img src="charm7.jpg" alt=" Asymmetrical Cherry Fruit Dangle Charm">
+            <div class="charms-info">
+                <p class="charm-name">Asymmetrical Cherry Fruit Dangle Charm </p>
+                <p class="charm-price">$30.00</p>
+            </div>
+        </div>
+        <div class="charms-card">
+            <img src="charm8.jpg" alt=" Christmas Sweater Dangle Charm">
+            <div class="charms-info">
+                <p class="charm-name">Christmas Sweater Dangle Charm</p>
+                <p class="charm-price">$50.00</p>
+            </div>
+        </div>
+        <div class="charms-card">
+            <img src="charm9.jpg" alt=" Disney Winnie the Pooh Bear Charm">
+            <div class="charms-info">
+                <p class="charm-name">  Disney Winnie the Pooh Bear Charm </p>
+                <p class="charm-price">$150.00</p>
+            </div>
+        </div>
+        <div class="charms-card">
+            <img src="charm10.jpg" alt="Cherry Blossom Dangle Charm">
+            <div class="charms-info">
+                <p class="charm-name">Cherry Blossom Dangle Charm </p>
+                <p class="charm-price">$60.00</p>
+            </div>
+        </div>
+        <div class="charms-card">
+            <img src="charm11.jpg" alt="Shopping Bag Dangle Charm">
+            <div class="charms-info">
+                <p class="charm-name"> Shopping Bag Dangle Charm </p>
+                <p class="charm-price">$50.00</p>
+            </div>
+        </div>
+        <div class="charms-card">
+            <img src="charm12.jpg" alt=" Murano Glass Sea Turtle Dangle Charm">
+            <div class="charms-info">
+                <p class="charm-name"> Murano Glass Sea Turtle Dangle Charm </p>
+                <p class="charm-price">$40.00</p>
+            </div>
+        </div>
+        
+        
+    </div>
+    <p>Any Inquiries? Contact us at:
+        <a href="mailto:Leola.behrens@gmail.com">leola.behrens@gmail.com</a> OR
+        <a href="https://wa.me/254768225352" target="_blank">Contact us on WhatsApp</a>
+    </p>
+</body>
+</html>

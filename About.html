@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About page </title>
+    <style>
+         body{
+            margin: 0;
+            padding: 20px;
+            text-decoration: none;
+            list-style: none;
+            font-family: Arial, sans-serif;
+            background-color:burlywood;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            width: 100%;
+            height: 100px;
+            background-color: grey;
+            color: #00bcd4;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+            flex: 1;
+        }
+        .nav-links li a {
+            color: #00bcd4;
+            font-size: 1em;
+            transition: color 0.3s;
+            text-decoration: none;
+        }
+        .nav-links li {
+            margin: 0 20px;
+        }
+        .nav-links li a:hover {
+            color: #007BFF;
+        }
+        ul {
+            margin-left: 60px;
+        }
+
+        ul li {
+            list-style: none; 
+            display: inline-block;
+            line-height: 100px;
+        }
+
+        ul li a {
+            display: block;
+            text-decoration: none;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: grey;
+            padding: 0 20px;
+        }
+
+        ul li a:hover {
+            color: aquamarine;
+        }
+        .shopping-cart {
+            width: 70px;
+            height: 80px;
+        }
+        .client-container {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start; 
+        gap: 30px; 
+    }
+
+    .client-image {
+        width: 200px; 
+        height: 200px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .client-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .client-text {
+        font-size: 18px;
+        color: #333;
+        max-width: 600px; 
+    }
+    .favorite-products {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .favorite-products h3 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    .product {
+        display: inline-block;
+        width: 250px;
+        margin: 10px;
+        text-align: center;
+    }
+
+    .product img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .product h4 {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="shoping.html" target="_blank">
+            <img src="cart.jpg" class="shopping-cart">
+        </a>
+        <ul class="nav-links">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="BProducts.html">Bracelets</a></li>
+            <li><a href="Charms.html">Charms</a></li>
+            <li><a href="About.html">About Us</a></li>
+            <li><a href="shoping.html"> Order Here</a></li>
+        </ul>
+    </nav> 
+         <div class="client-container">
+            <div class="client-image">
+                <img src="client pic.webp">
+            </div>
+            <div class="client-text">
+<p>Born during the challenges of the 2021 lockdown, this bracelet business began as a small spark of hope 
+and creativity a way to bring beauty and connection to others during a time of uncertainty. 
+ Over the years, it has grown into more than just a business; it has become a celebration of 
+resilience, individuality, and shared inspiration. Each bracelet we offer is carefully designed 
+ to reflect timeless elegance, crafted to complement every style and occasion, while carrying a 
+ message of confidence and self-expression. Beyond creating beautiful accessories, we aim to inspire 
+others to chase their passions, proving that even the smallest ideas can grow into something 
+extraordinary with determination and support. This journey wouldn’t have been possible without the 
+trust and loyalty of our community, and we remain committed to spreading joy, one bracelet at a
+time, while encouraging others to believe in their dreams. </p>
+            </div>
+        </div>
+        <div class="favorite-products">
+            <h3> C.E.O's Favorite Products</h3>
+            <div class="product">
+                <img src="charm2.jpg" >
+                <h4>Sparkling Cross Dangle Charm</h4>
+            </div>
+            <div class="product">
+                <img src="pic16.jpg" >
+                <h4> Organically Shaped Broad Open Bangle</h4>
+            </div>
+            <div class="product">
+                <img src="pic8.jpg">
+                <h4>Sparkling Pavé Tennis Bracelet</h4>
+            </div>
+        </div>
+</html>

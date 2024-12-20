@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <style>
+        h1 {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 60px;
+            color: indianred;
+            text-align: center;
+        }
+
+        body{
+            margin: 0;
+            padding: 20px;
+            text-decoration: none;
+            list-style: none;
+            font-family: Arial, sans-serif;
+            background-color: lavender;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            width: 100%;
+            height: 100px;
+            background-color: grey;
+            color: #00bcd4;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+            flex: 1;
+        }
+
+        .nav-links li a {
+            color: #00bcd4;
+            font-size: 1em;
+            transition: color 0.3s;
+            text-decoration: none;
+        }
+
+        .nav-links li {
+            margin: 0 20px;
+        }
+
+        .nav-links li a:hover {
+            color: #007BFF;
+        }
+        ul {
+            margin-left: 60px;
+        }
+
+        ul li {
+            list-style: none; 
+            display: inline-block;
+            line-height: 100px;
+        }
+
+        ul li a {
+            display: block;
+            text-decoration: none;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: grey;
+            padding: 0 20px;
+        }
+
+        ul li a:hover {
+            color: aquamarine;
+        }
+
+        .shopping-cart {
+            width: 70px;
+            height: 80px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr); 
+            gap: 20px; 
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .product-card {
+            text-align: center;
+        }
+
+        .product-card img {
+            width: 100%; 
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .product-info {
+            margin-top: 10px;
+        }
+
+        .product-name {
+            font-size: 16px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .product-price {
+            font-size: 14px;
+            color: #007BFF;
+            margin-top: 5px;
+        }
+
+        a {
+            font-size: 20px;
+            color: blue;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="shoping.html" target="_blank">
+            <img src="cart.jpg" class="shopping-cart">
+        </a>
+        <ul class="nav-links">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="BProducts.html">Bracelets</a></li>
+            <li><a href="Charms.html">Charms</a></li>
+            <li><a href="About.html">About Us</a></li>
+            <li><a href="shoping.html"> Order Here</a></li>
+        </ul>
+    </nav>
+    <h1>Shimer and Shine🌺</h1>
+    <h2>Where every need is met, and your dream jewelry is brought to life🎀</h2>
+    <div class="gallery">
+        <div class="product-card">
+            <img src="pic5.jpg" alt="Moments Encircled Clasp Bangle">
+            <div class="product-info">
+                <p class="product-name">Moments Encircled Clasp Bangle</p>
+                <p class="product-price">$24.00</p>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="pic6.jpg" alt="Celestial Stars Bracelet">
+            <div class="product-info">
+                <p class="product-name">Celestial Stars Bracelet</p>
+                <p class="product-price">$45.00</p>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="pic7.jpg" alt="Stranger Things Charm Bracelet Set">
+            <div class="product-info">
+                <p class="product-name">Stranger Things Charm Bracelet Set</p>
+                <p class="product-price">$90.00</p>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="pic8.jpg" alt="Sparkling Pavé Tennis Bracelet">
+            <div class="product-info">
+                <p class="product-name">Sparkling Pavé Tennis Bracelet</p>
+                <p class="product-price">$100.00</p>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="pic9.jpg" alt="Organically Shaped Bangle">
+            <div class="product-info">
+                <p class="product-name">Organically Shaped Bangle</p>
+                <p class="product-price">$100.00</p>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="pic10.jpg" alt="Studded Chain Slider Bracelet">
+            <div class="product-info">
+                <p class="product-name"> Studded Chain Slider Bracelet</p>
+                <p class="product-price">$55.00</p>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="pic11.jpg" alt=" Infinite Lab-grown Diamond Bangle 0.25 carat tw 14k Gold">
+            <div class="product-info">
+                <p class="product-name">  Infinite Lab-grown Diamond Bangle 0.25 carat tw 14k Gold</p>
+                <p class="product-price">$150.00</p>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="pic12.jpg" alt="Era Bezel Lab-grown Diamond Station Chain Bracelet 0.40 carat tw 14k Gold">
+            <div class="product-info">
+                <p class="product-name"> Era Bezel Lab-grown Diamond Station Chain Bracelet 0.40 carat tw 14k Gold</p>
+                <p class="product-price">$200.00</p>
+            </div>
+        </div>
+        <div class="product-card">
+            <img src="pic13.jpg" alt=" Heart Clasp Snake Chain Bracelet">
+            <div class="product-info">
+                <p class="product-name">  Heart Clasp Snake Chain Bracelet </p>
+                <p class="product-price">$80.00</p>
+            </div>
+        </div><div class="product-card">
+            <img src="pic14.jpg" alt=" Moments Heart & Butterfly Bangle">
+            <div class="product-info">
+                <p class="product-name">  Moments Heart & Butterfly Bangle </p>
+                <p class="product-price">$40.00</p>
+            </div>
+        </div><div class="product-card">
+            <img src="pic15.jpg" alt="Mother-Daughter Splittable Heart Charm Bracelet Set">
+            <div class="product-info">
+                <p class="product-name"> Mother-Daughter Splittable Heart Charm Bracelet Set</p>
+                <p class="product-price">$206.00</p>
+            </div>
+        </div><div class="product-card">
+            <img src="pic16.jpg" alt="Organically Shaped Broad Open Bangle">
+            <div class="product-info">
+                <p class="product-name"> Organically Shaped Broad Open Bangle</p>
+                <p class="product-price">$175.00</p>
+            </div>
+        </div>
+        </div>
+    <p>Any Inquiries? Contact us at:
+        <a href="mailto:Leola.behrens@gmail.com">leola.behrens@gmail.com</a> OR
+        <a href="https://wa.me/254768225352" target="_blank">Contact us on WhatsApp</a>
+    </p>
+</body>
+</html>
